@@ -2797,7 +2797,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* User profile name text. */
 #user_text {
-    font-size: 12px;
+    font-size: 20px;
     min-width: 135px;
     font-weight: 900;
     letter-spacing: 1px;
@@ -2844,10 +2844,9 @@ input:checked + .toggleSwitchSlider:before {
 /* Social media icon shared styles. */
 .mediaSVG {
     fill: #ffffff;
-    height: 12px;
+    height: 20px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 12px;
     width: 25px;
 }
 .mediaSVG:hover,
@@ -2878,7 +2877,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 15px;
+    height: 20px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
@@ -3155,7 +3154,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Span which contains the news button text. */
 #newsButtonText {
-    color: red;
+    color: blue;
     font-weight: 900;
     letter-spacing: 2px;
     text-shadow: 0px 0px 0px #bebcbb;
@@ -3163,6 +3162,7 @@ input:checked + .toggleSwitchSlider:before {
     line-height: 30px;
     display: flex;
     transition: 0.25s ease;
+    text-shadow: 0px 0px 20px #fff, 0px 0px 10px #fff;
 }
 
 /* * *
@@ -3191,11 +3191,11 @@ input:checked + .toggleSwitchSlider:before {
 }
 #launch_button:hover,
 #launch_button:focus {
-    text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+    text-shadow: 0px 0px 20px #1d791a, 0px 0px 20px #1d791a;
 }
 #launch_button:active {
     color: #c7c7c7;
-    text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
+    text-shadow: 0px 0px 20px #1d791a, 0px 0px 20px #1d791a;
 }
 #launch_button:disabled {
     color: #c7c7c7;
