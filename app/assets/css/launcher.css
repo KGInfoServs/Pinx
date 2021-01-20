@@ -2406,8 +2406,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* News article title styles. */
 #newsArticleTitle {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 23px;
     font-family: 'Sea';
     color: white;
     text-decoration: none;
@@ -2443,7 +2442,6 @@ input:checked + .toggleSwitchSlider:before {
     display: inline-block;
     font-size: 10px;
     padding: 0px 5px;
-    font-weight: bold;
     border-radius: 2px;
 }
 
@@ -2487,7 +2485,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Article content styles. */
 #newsArticleContentScrollable {
-    font-size: 12px;
+    font-size: 18px;
     overflow-y: scroll;
     height: 100%;
     padding: 0px 15px 0px 15px;
@@ -2642,7 +2640,6 @@ input:checked + .toggleSwitchSlider:before {
 /* News error retry button styles. */
 #newsErrorRetry {
     font-size: 12px;
-    font-weight: bold;
     cursor: pointer;
     background: none;
     border: none;
@@ -2808,7 +2805,6 @@ input:checked + .toggleSwitchSlider:before {
     justify-content: center;
     align-items: center;
     transition: 0.25s ease;
-    font-weight: bold;
     letter-spacing: 2px;
     background-color: rgba(0, 0, 0, 0.35);
     -webkit-user-select: none;
@@ -2996,9 +2992,8 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Style for a general label on the bottom of the landing view. */
 .bot_label {
-    font-size: 9px;
+    font-size: 14px;
     letter-spacing: 1px;
-    font-weight: bold;
     text-shadow: 0px 0px 0px #bebcbb;
 }
 
@@ -3024,7 +3019,7 @@ input:checked + .toggleSwitchSlider:before {
 /* Span which displays the player count of the selected server. */
 #player_count {
     color: #949494;
-    font-size: 8px;
+    font-size: 16px;
     font-weight: 900;
     text-shadow: 0px 0px 20px #949494;
     margin-left: 10px;
@@ -3374,7 +3369,6 @@ input:checked + .toggleSwitchSlider:before {
 #overlayTitle {
     font-family: 'Sea';
     font-size: 20px;
-    font-weight: bold;
     letter-spacing: 1px;
     -webkit-user-select: initial;
 }
