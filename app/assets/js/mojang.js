@@ -7,7 +7,7 @@
  */
 // Requirements
 const request = require('request')
-const logger  = require('./loggerutil')('%c[Mojang]', 'color: #a02d2a; font-weight: bold')
+const logger  = require('./loggerutil')('%c[Mojang]', 'color: #a02d2a;')
 
 // Constants
 const minecraftAgent = {
@@ -19,13 +19,13 @@ const statuses = [
     {
         service: 'sessionserver.mojang.com',
         status: 'grey',
-        name: 'Multiplayer Session Service',
+        name: 'Service MultiJoueurs',
         essential: true
     },
     {
         service: 'authserver.mojang.com',
         status: 'grey',
-        name: 'Authentication Service',
+        name: 'Service Authentification',
         essential: true
     },
     {

@@ -2379,7 +2379,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* News article title styles. */
 #newsArticleTitle {
-    font-size: 23px;
+    font-size: 24px;
     font-family: 'Sea';
     color: white;
     text-decoration: none;
@@ -2413,7 +2413,7 @@ input:checked + .toggleSwitchSlider:before {
 #newsArticleDate,
 #newsArticleAuthor {
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     padding: 0px 5px;
     border-radius: 2px;
 }
@@ -2434,7 +2434,7 @@ input:checked + .toggleSwitchSlider:before {
 #newsArticleComments {
     margin-top: 5px;
     display: inline-block;
-    font-size: 10px;
+    font-size: 15px;
     color: #ffffff;
     text-decoration: none;
     transition: 0.25s ease;
@@ -2458,7 +2458,7 @@ input:checked + .toggleSwitchSlider:before {
 
 /* Article content styles. */
 #newsArticleContentScrollable {
-    font-size: 18px;
+    font-size: 20px;
     overflow-y: scroll;
     height: 100%;
     padding: 0px 15px 0px 15px;
