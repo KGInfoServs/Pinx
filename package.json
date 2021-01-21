@@ -1,9 +1,9 @@
 {
-  "name": "kginfoservs",
+  "name": "KGInfoServs",
   "version": "1.0.0",
-  "productName": "KgInfoServ",
-  "description": "Serveur Minecraft moddé 1.16.4",
-  "author": "Daniel Scalzi et AnewPlayerFr",
+  "productName": "KGInfoServs",
+  "description": "Serveur Minecraft 1.16.4",
+  "author": "Daniel Scalzi et Bossbirdyman",
   "license": "UNLICENSED",
   "homepage": "",
   "bugs": {
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anewplayerfr/KGInfoServs.git"
+    "url": "git+https://github.com/Bossbirdyman51/KGInfoServs.git"
   }
 }
