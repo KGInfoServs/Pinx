@@ -19,9 +19,9 @@ builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
         appId: 'kginfoservs',
-        productName: 'KgInfoServ',
+        productName: 'KGInfoServs',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2018-2020 Anewplayer-ytb',
+        copyright: 'Copyright © 2018-2021 Bossbirdyman',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -46,8 +46,8 @@ builder.build({
         },
         linux: {
             target: 'AppImage',
-            maintainer: 'Anewplayer-ytb',
-            vendor: 'Anewplayer-ytb',
+            maintainer: 'KGInfoServs',
+            vendor: 'KGInfoServs',
             synopsis: 'Serveur Minecraft moddé 1.16.4',
             description: 'Serveur Minecraft moddé 1.16.4',
             category: 'Game'
