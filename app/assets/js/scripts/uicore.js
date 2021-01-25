@@ -41,8 +41,8 @@ if(!isDev){
     ipcRenderer.on('autoUpdateNotification', (event, arg, info) => {
         switch(arg){
             case 'checking-for-update':
-                loggerAutoUpdater.log('Checking for update..')
-                settingsUpdateButtonStatus('Checking for Updates..', true)
+                loggerAutoUpdater.log('Rercherche de mise à jour..')
+                settingsUpdateButtonStatus('Recherche de mise à jour..', true)
                 break
             case 'update-available':
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
