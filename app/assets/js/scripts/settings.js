@@ -1299,7 +1299,7 @@ function populateSettingsUpdateInformation(data){
                 shell.openExternal(data.darwindownload)
             })
         } else {
-            settingsUpdateButtonStatus('Téléchargement..', true)
+            settingsUpdateButtonStatus('Downloading..', true)
         }
     } else {
         settingsUpdateTitle.innerHTML = 'Tu as la dernière version.'
