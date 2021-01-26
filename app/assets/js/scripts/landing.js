@@ -525,12 +525,12 @@ function dlAsync(login = true){
     })
     aEx.on('error', (err) => {
         loggerLaunchSuite.error('Error during launch', err)
-        showLaunchFailure('Error During Launch', err.message || 'See console (CTRL + Shift + i) for more details.')
+        showLaunchFailure('Error During Launch', err.message || 'Merci de contacter Bossbirdyman')
     })
     aEx.on('close', (code, signal) => {
         if(code !== 0){
             loggerLaunchSuite.error(`AssetExec exited with code ${code}, assuming error.`)
-            showLaunchFailure('Error During Launch', 'See console (CTRL + Shift + i) for more details.')
+            showLaunchFailure('Error During Launch', 'Merci de contacter Bossbirdyman')
         }
     })
 
@@ -619,8 +619,8 @@ function dlAsync(login = true){
                         )
                     } else {
                         showLaunchFailure(
-                            'Download Error',
-                            'Check the console (CTRL + Shift + i) for more details. Please try again.'
+                            'Erreur',
+                            'Merci de contacter Bossbirdyman sur Discord'
                         )
                     }
 
