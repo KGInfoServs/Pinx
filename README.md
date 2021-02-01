@@ -1,7 +1,7 @@
-<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="aventium softworks"></p>
+<p align="center"><img src="./app/assets/images/SealCircle.png" width="150px" height="150px" alt="pinx"></p>
 
-<h1 align="center">KGInfoServs Launcher</h1>
+<h1 align="center">PixelWorld</h1>
 
-<em><h5 align="center">(formerly Electron Launcher)</h5></em>
+<em><h5 align="center">By Bossbirdyman</h5></em>
 
 
